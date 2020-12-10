@@ -1,0 +1,48 @@
+body{
+	background-color: black;
+}
+#video{
+position: absolute;
+z-index: -1;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+
+}
+
+#text{
+font-family: europa, sans-sarif;
+color: white;
+text-decoration: none;
+
+}
+
+#forward{
+	position: absolute;
+	color: white;
+	text-decoration: none;
+	font-family: europa, sans-sarif;
+	font-size: 4vh;
+	text-align: right;
+	right: 0%;
+}
+
+#forward:hover{
+	color: orange;
+}
+
+#back{
+	/*position: absolute;*/
+	font-family: europa, sans-sarif;
+	bottom: 10%;
+	text-decoration: none;
+	color: white;
+	font-size:4vh;
+
+}
+
+#back:hover{
+	color: orange;
+
+
